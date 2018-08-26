@@ -11,6 +11,7 @@ sentence
 end 
 
 def assign_rooms(attendees)
+<<<<<<< HEAD
   room_assignments=[]
   attendees.each_with_index do |name, index|
   room_assignments.push ("Hello, #{name}! You'll be assigned to room #{index+1}!")
@@ -26,3 +27,7 @@ def printer(attendees)
     puts room
   end 
 end 
+=======
+end
+  
+>>>>>>> 5f948930c9e234639109482ed36eef4c34a1c22d
